@@ -1,0 +1,49 @@
+body {
+    background-color: #0dac84;
+     
+}
+
+.contianer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px; 
+}
+
+input[type=text],
+input[type=text]:focus {
+    color:black;
+    background: white;
+    max-width: 400px;
+}
+
+.todos li {
+    background: #4d418f;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
+
+h2 {
+    animation: ani 5s infinite ;
+    text-align: center;
+}
+
+@keyframes ani {
+    0% {
+        transform: rotatex(0deg)
+    }
+
+    100% {
+        transform:  rotatex(360deg)
+    }
+}
+
+
+h2:hover {
+    transform: skewx(360deg);
+  } 
