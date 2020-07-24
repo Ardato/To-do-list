@@ -10,6 +10,8 @@ Link: https://loving-keller-25deb2.netlify.app
 
 
 ## Technologies
+- html
+- css
 - Bootstrap
 - JavaScript
 
